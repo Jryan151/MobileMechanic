@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Mechanic - Customer Intake</title>
+</head>
+<body>
+    <h2>Vehicle Intake</h2>
+    
+    <div id="vin-container">
+        <label for="vin-input">Enter your 17-digit VIN:</label>
+        <input type="text" id="vin-input" maxlength="17" placeholder="17-character VIN">
+        <button id="decode-btn">Lookup Vehicle</button>
+    </div>
+
+    <!-- The API results will populate inside this div -->
+    <div id="vehicle-results" style="margin-top: 20px; font-weight: bold;"></div>
+
+</body>
+</html>
